@@ -167,6 +167,7 @@ class Main extends React.Component {
           <textarea
             id='output'
             value={ JSON.stringify(this.state, null, 2) }
+            rows='15'
             readOnly
           />
         </div>
