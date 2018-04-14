@@ -1,0 +1,8 @@
+footer {
+  font-size: .9em;
+  padding: 14.5px 50px;
+}
+
+footer .copyright {
+  color: rgba(255, 255, 255, 0.7);
+}
