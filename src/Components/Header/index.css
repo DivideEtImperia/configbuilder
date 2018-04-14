@@ -1,0 +1,27 @@
+header {
+  height: 50px;
+}
+
+header div {
+  position: relative;
+  display: inline-block;
+  float: left;
+  height: 100%;
+  line-height: 50px;
+}
+
+
+#back-to-home {
+  width: 50px;
+  text-align: center;
+}
+
+#back-to-home a {
+  display: inline-block;
+  width: 100%;
+  transform: translateZ(0);
+  transition: filter .3s cubic-bezier(.4, 0, .2, 1);
+}
+#back-to-home a:hover {
+  filter: brightness(150%);
+}
